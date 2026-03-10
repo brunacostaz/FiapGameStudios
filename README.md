@@ -7,6 +7,21 @@ Atenção: a divisão de diretórios dentro de um mesmo projeto não caracteriza
 
 A arquitetura monolítica garante uma fácil comunicação entre os módulos, já que podemos realizar chamando diretamente um método da classe, mas são menos escaláveis se comparado a uma arquitetura de microserviços.
 
+
+## Discussão arquitetural
+
+- Qual arquitetura está sendo usada? Monolítica? Em camadas? Orientada a objetos? Orientada a serviços?
+
+R: Esse projeto está utilizando uma arquitetura monolítica, pois roda inteiramente dentro de uma única aplicação, sem possui serviços independentes ou comunicação via protocolo HTTP ou mensageria. Nesse caso, as chamadas de métodos são feitas diretamente entre os objetos.
+
+Ele também está dividido em camadas: 
+- ui: responsável pela interface de usuário e inicialização do sistema.
+- application: responsável por orquestrar o fluxo da aplicação.
+- service: responsável pelas regras de negócio.
+- domain: responsável por armazenar os dados da aplicação, fazendo um papel de entidades.
+
+Além disso, o código é orientado a objetos, apresentando os conceitos fundamentais de encapsulamento (atributos privados, getters e setters), abstração (uso de interfaces injetadas nos construtores, a fim de desacoplar as responsabilidades do serviço), polimorfismo e Strategy Pattern, pois utilizamos diferentes estrátegias injetadas nas classes de serviço para validar a missão e calcular a pontuação do jogador.
+
 ## Arquitetura do projeto 🏛️
 
 ### Visão Macro do monolito
