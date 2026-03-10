@@ -12,12 +12,18 @@ A arquitetura monolítica garante uma fácil comunicação entre os módulos, j�
 ### Visão Macro do monolito
 <img width="302" height="511" alt="engenharia_game_monolitico_geral drawio" src="https://github.com/user-attachments/assets/07cba847-c1a6-476b-8f7e-ccb429134ec4" />
 
+----------------------------------------------------------------------------------
+
 ### Visão detalhada com o fluxo da aplicação
 
 <img width="462" height="601" alt="engenharia_game_monolitico_detalhes1" src="https://github.com/user-attachments/assets/2d372c05-e2dd-42b5-a134-b075aca68a92" />
 
+----------------------------------------------------------------------------------
+
 ### Visão detalhada das ações feitas em cada etapa
  <img width="811" height="851" alt="engenharia_game_monolitico_detalhes_2" src="https://github.com/user-attachments/assets/ab24e365-45e8-40bc-b958-ef16d3e86692" />
+
+ ----------------------------------------------------------------------------------
 
  ### Visão detalhada das ações e camadas do monolito 
  <img width="862" height="1051" alt="engenharia_game_monolitico_detalhes3" src="https://github.com/user-attachments/assets/2661bb50-0d74-4412-8f18-bd586030b514" />
